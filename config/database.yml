@@ -84,3 +84,4 @@ production:
   database: <%= ENV["PMT_TRACKER_DATABASE_NAME"] %>
   username: <%= ENV["PMT_TRACKER_DATABASE_USERNAME"] %>
   password: <%= ENV["PMT_TRACKER_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
