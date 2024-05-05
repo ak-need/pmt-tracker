@@ -1,0 +1,6 @@
+<% content_for :page_title, "Editing #{@patient.name} - PMT Tracker" %>
+
+<div class="mx-auto md:w-2/3 w-full">
+  <h2 class="mb-10 text-xl font-bold text-gray-900 dark:text-white">Editing patient</h2>
+  <%= render "form", patient: @patient %>
+</div>

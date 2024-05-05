@@ -1,0 +1,1 @@
+<%= column_chart Patient.group_by_day(:created_at).count, xtitle: 'Dates', ytitle: "Registered Patients" %>
